@@ -10,8 +10,10 @@ import { motion } from "framer-motion";
 export default function FeatureBento() {
     return (
         <section className="py-[120px] px-5 md:px-16 max-w-[1200px] mx-auto">
-            <SectionLabel>Built Different</SectionLabel>
-            <h2 className="section-title-bar text-[32px] md:text-[40px] font-bold text-[#e8ccff] mb-14 mt-4 font-orbitron">
+            <div className="flex gap-4">
+                <SectionLabel>Built Different</SectionLabel>
+            </div>
+            <h2 className="section-title-bar text-[32px] md:text-[40px] font-bold text-[#e8ccff] mb-14 font-orbitron">
                 Why CouchCode?
             </h2>
 
