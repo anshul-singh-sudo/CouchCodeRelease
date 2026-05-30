@@ -20,7 +20,7 @@ export default function Nav() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1, ease: Easing }}
             className={`fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 md:px-10 py-3 transition-all duration-500 gap-4 ${scrolled
-                ? "bg-[rgba(4,2,14,0.92)] backdrop-blur-2xl border-b border-[rgba(180,76,245,0.15)] shadow-[0_4px_30px_rgba(107,17,160,0.2)]"
+                ? "bg-[rgba(10,8,20,0.3)] backdrop-blur-md border-b border-[rgba(180,76,245,0.15)] shadow-[0_4px_30px_rgba(107,17,160,0.2)]"
                 : "bg-transparent"
                 }`}
         >
