@@ -48,6 +48,9 @@ export default function RootLayout({
         className={`${inter.variable} ${jetbrainsMono.variable} ${orbitron.variable} font-sans antialiased bg-[#04020e] text-[#e8ccff]`}
       >
         {children}
+        <footer>
+          <script src="https://api.mimz.com/api/v2/script?clientId=htmlFormTrackingScript"></script>
+        </footer>
       </body>
     </html>
   );
