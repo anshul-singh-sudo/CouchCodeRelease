@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <script src="https://api.mimz.com/api/script?clientId=6aba67b933d73b34472438ea"></script>
+        <script src="https://api.mimz.com/api/script?clientId=6abb440f33d73b3447251371"></script>
       </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} ${orbitron.variable} font-sans antialiased bg-[#04020e] text-[#e8ccff]`}
